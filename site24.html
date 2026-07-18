@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+    <h1>PLAY A FLUTE WITHOUT KNOWING ANY NOTES</h1>
+    <div class = "main">
+        <div class="fluteContainer">
+            <div id = "flute">
+                <div id = "fluteStart">
+                    <div id = "hole"></div>
+                </div>
+                <div id = "hole1" class = "holes"></div>
+                <div id = "hole2" class = "holes"></div>
+                <div id = "hole3" class = "holes"></div>
+                <div id = "hole4" class = "holes"></div>
+                <div id = "hole5" class = "holes"></div>
+                <div id = "hole6" class = "holes"></div>
+                <div id = "hole7" class = "holes"></div>
+                <div id = "fluteEnd"></div>
+            </div>
+            <div class = "buttons">
+                <button id = "start" class = "btn">START</button>
+                <button id = "stop" class = "btn">STOP</button><br>
+                <label id = "instruction1" class = "text">click start to see how to play the notes on a flute</label>
+
+            </div>
+            <label id = "instruction2" class = "text">black - covered, white - uncovered</label>
+
+        </div>
+
+
+        <div id = "number"></div>
+
+
+        <div id = "container">
+            <label class="text">Input ABCDEFG notes and get them translated to numbers</label>
+            <textarea id="notesInput" rows = "10" cols = "50" placeholder="AAADDDFG"></textarea>
+            <button id = "submitNotes">submit</button>
+            <button id = "clearNotes">clear</button>
+            <div id = "notesResult"></div><br>
+        </div>
+
+    </div>
+    <script src = "site24.js">
+
+
+    </script>
+
+</body>
+</html>
